@@ -1,0 +1,90 @@
+.buttons-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    min-width: 120px;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.settings-input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 40px;
+}
+
+.settings-input-title {
+    margin-right: 10px;
+    font-family: 'Asap Condensed', sans-serif;
+    width: 150px;
+}
+
+.settings-input-field {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #ababab;
+}
+
+.settings-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(21, 21, 21);
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #a1bfff;
+    background-color: rgb(241, 240, 240);
+}
+
+.settings-logout-button {
+    margin-top: 20px;
+}
+
+.settings-input-title {
+    font-family: 'Asap Condensed', sans-serif;
+    width: 150px;
+}
+
+.settings-email-list {
+    width: 100%;
+}
+
+.settings-email-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    color: rgb(21, 21, 21);
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #a1bfff;
+    background-color: rgb(241, 240, 240);
+}

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Matemasie&display=swap');
+
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.landing-title {
+    margin-top: 100px;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #333;
+    font-family: 'Asap Condensed', sans-serif;
+    margin-bottom: 50px;
+}
+
+.landing-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.landing-input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 300px;
+    border: 1px solid #ababab;
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+.landing-button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #a1bfff;
+    color: rgb(21, 21, 21);
+    background-color: rgb(241, 240, 240);
+    cursor: pointer;
+    width: 145px;
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.SPE-description {
+    font-size: 1rem;
+    width: 500px;
+    align-items: center;
+    text-align: center;
+    color: #333;
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .SPE-description {
+        width: 300px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .SPE-description {
+        width: 200px;
+        font-size: 0.7rem;
+    }
+}

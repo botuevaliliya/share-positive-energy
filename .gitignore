@@ -1,0 +1,6 @@
+# Add this to your .gitignore if it's not already there:
+venv/
+node_modules/
+staticfiles/
+.env
+*.env

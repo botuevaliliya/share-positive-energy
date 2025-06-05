@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Matemasie&display=swap');
+
+.wall-container {
+    position: relative;
+    height: 100vh;
+    /* width: 200vw; */
+    overflow: hidden;
+    padding-top: 60px;
+}
+
+.wall-item {
+    /* border: 1px solid rgb(241, 237, 237); */
+    /* background-color: rgb(246, 245, 245); */
+
+    /* background: #f7f7ff; */
+    /* border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    cursor: move;
+    font-size: 14px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.content {
+    /* position: relative; */
+    /* height: 100%; */
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    white-space: pre-wrap;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: scroll;
+    /* background: #fcfcfc00; */
+}
+
+@media (max-width: 768px) {
+    .wall-container {
+        padding-top: 50px;
+    }
+
+    .content {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .wall-container {
+        padding-top: 40px;
+    }
+
+    .content {
+        font-size: 10px;
+    }
+}

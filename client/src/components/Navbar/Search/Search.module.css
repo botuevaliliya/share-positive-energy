@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Matemasie&display=swap');
+
+.searchInput {
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Asap Condensed', sans-serif;
+    width: 100%;
+    margin-left: 15px;
+}
+
+.searchInput:focus {
+    outline: none;
+}
+
+.inputWrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    height: 2.5rem;
+    padding: 0 15px;
+    box-shadow: 0px 0px 2px #ddd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+}
+
+.searchBarContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.resultsList {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    max-height: 200px;
+    overflow-y: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+.searchResult {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.searchResult:hover {
+    background-color: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+    .inputWrapper {
+        max-width: 200px;
+        padding: 6px 10px;
+    }
+
+    .searchInput {
+        font-size: 12px;
+    }
+
+    #search-icon {
+        font-size: 14px;
+    }
+
+    .resultsList {
+      font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .inputWrapper {
+        max-width: 150px;
+        padding: 4px 8px;
+    }
+
+    .searchInput {
+        font-size: 10px;
+    }
+
+    #search-icon {
+        font-size: 12px;
+    }
+
+    .resultsList {
+      font-size: 10px;
+    }
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Matemasie&display=swap');
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.settings, .settings-posts {
+    flex: 1;
+    padding: 10px;
+}
+
+.user-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  @media (min-width: 768px) {
+    .user-container {
+      flex-direction: row;
+    }
+    .left-section {
+      flex: 4;
+    }
+    .right-section {
+      flex: 6;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .user-container {
+      flex-direction: column;
+    }
+    .left-section, .right-section {
+      flex: 1;
+    }
+  }
