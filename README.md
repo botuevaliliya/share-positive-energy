@@ -20,6 +20,6 @@ This MVP was initially deployed on an EC2 instance to test user interactions and
 Initial description:
 🔗 [Notion Product Overview](https://steady-pizza-d64.notion.site/Share-Positive-Energy-1ab2a37abdfc80969a43fa771c31f8d1)
 
-Some old version pictures:
-<img width="400" alt="Screenshot 2025-06-27 at 11 38 02 PM" src="https://github.com/user-attachments/assets/4e31536c-c82a-440a-9b2a-f54b5f528474" />
-<img width="400" alt="Screenshot 2025-06-27 at 11 38 32 PM" src="https://github.com/user-attachments/assets/656ac4ec-efd9-468a-80f7-5ff764d05fe8" />
+Some old version pictures:  
+<img width="400" alt="Screenshot 2025-06-27 at 11 38 02 PM" src="https://github.com/user-attachments/assets/4e31536c-c82a-440a-9b2a-f54b5f528474" />  
+<img width="400" alt="Screenshot 2025-06-27 at 11 38 32 PM" src="https://github.com/user-attachments/assets/656ac4ec-efd9-468a-80f7-5ff764d05fe8" />  
