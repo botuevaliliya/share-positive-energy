@@ -1,9 +1,10 @@
-https://share-positive-energy.netlify.app/
 # Share Positive Energy (SPE) ☀️
 
 **Share Positive Energy** is a platform designed to make it easier (and safer) for people to leave kind, supportive, or constructive feedback — anonymously. In a world where negativity is often louder, SPE encourages small, positive acts of emotional generosity.
 
 The idea: Give users a space to highlight the good in others — whether it’s encouragement, gratitude, or meaningful reflection — and let those words live on their wall. No likes, no scoring. Just real words from real people.
+
+Please try it: [Share Positive Energy](https://share-positive-energy.netlify.app/)  
 
 ---
 
